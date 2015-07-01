@@ -1,0 +1,42 @@
+body {
+  background-color: #f7fff7;
+  position: relative;
+}
+
+form {
+  display: table;
+}
+
+form span {
+  display: table-row;
+}
+
+form span * {
+  display: table-cell;
+  vertical-align: middle;
+  margin:0px 0.5em;
+}
+
+p {
+  margin: 0 5px;
+  padding: 0;
+}
+
+p .userChange{
+  font-weight: bolder;
+}
+
+ul #userList{
+  position: absolute;
+  width: 200px;
+  right: 10px;
+  top: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+li .user {
+  margin: 0;
+  padding: 0;
+}
+

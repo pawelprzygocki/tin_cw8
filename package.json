@@ -1,0 +1,12 @@
+{
+  "name": "Czat",
+  "version": "0.1.0",
+  "description": "Komunikator na Socket.io",
+  "scripts": {
+    "start": "node serwer.js"
+  },
+  "dependencies": {
+    "express": "^4.11.0",
+    "socket.io": "^1.2.1"
+  }
+}
